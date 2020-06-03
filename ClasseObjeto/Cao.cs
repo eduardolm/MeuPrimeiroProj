@@ -13,9 +13,9 @@ namespace ClasseObjeto
 
         public string CorPelo { get; set; }
 
-        public void Comer()
+        public string Comer()
         {
-            Console.WriteLine($"{Nome} começou a comer");
+            return $"{Nome} começou a comer";
         }
 
         public string Latir()
@@ -23,15 +23,15 @@ namespace ClasseObjeto
             return "Au, au au";
         }
 
-        public void Passear(bool estaChovendo)
+        public string Passear(bool estaChovendo)
         {
             if (estaChovendo)
             {
-                Console.WriteLine($"Sinto muito, mas o {Nome} não poderá passear, pois está chovendo");
+                return $"Sinto muito, mas o {Nome} não poderá passear, pois está chovendo";
             }
             else
             {
-                Console.WriteLine($"{Nome} foi passear");
+                return $"{Nome} foi passear";
             }
         }
         

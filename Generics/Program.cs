@@ -31,7 +31,7 @@ namespace Generics
                 var texto = "Olá, meu   nome é Eduardo??? Sim... o sobrenome é Marzano!";
                 Console.WriteLine($"A frase possui {texto.ContadorDePalavras()} palavras");
 
-                string erro = null;
+                string erro = string.Empty;
                 erro.ContadorDePalavras();
             }
             catch (Exception e)
