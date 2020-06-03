@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Xml;
+using Newtonsoft.Json;
 
 namespace FileHandlingDemo
 {
@@ -74,6 +77,18 @@ namespace FileHandlingDemo
             {
                 Console.WriteLine("File not found!");
             }
+            
+            Console.WriteLine("============================================");
+            
+            OpenJson jsonFile = new OpenJson();
+            
+            string json = jsonFile.ReadFile("answer.json");
+            
+            Dictionary<string, string> values = 
+                JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+            
+            
+            Console.WriteLine(values["cifrado"]);
         }
     }
 }
