@@ -22,12 +22,12 @@ namespace Heranca
             Adulto pessoa = new Adulto(1, "Joana Silva"); // Mudança na forma de criação do objeto
 
             pessoa.DataDeNascimento = new DateTime(1988, 09, 30);
-                pessoa.SexoFminino = true;
+            pessoa.SexoFminino = true;
 
-                CriancaPequena pessoa1 = new CriancaPequena(2, "David Santos");
-            
-                pessoa1.DataDeNascimento = new DateTime(2018, 03, 06);
-                pessoa1.SexoFminino = false;
+            CriancaPequena pessoa1 = new CriancaPequena(2, "David Santos");
+        
+            pessoa1.DataDeNascimento = new DateTime(2018, 03, 06);
+            pessoa1.SexoFminino = false;
             
             
             pessoa.Comer();
@@ -46,7 +46,10 @@ namespace Heranca
             
             Console.WriteLine($"A soma é: {Calculo.Somar(10, 15)}");
 
-
+            TesteCascata testeCascata = new TesteCascata(1, "Eduardo");
+            testeCascata.SexoFminino = false;
+            testeCascata.DataDeNascimento = DateTime.Today;
+            testeCascata.Comer();
         }
     }
     
@@ -57,5 +60,6 @@ namespace Heranca
         {
             base.MinhaPropProtectedInternal = 15;
         }
+        
     }
 }

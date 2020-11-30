@@ -9,6 +9,7 @@ namespace Heranca
             this.Id = id;
             this.Nome = nome;
         }
+        
         public int Id { get; set; }
 
         public DateTime DataDeNascimento { get; set; }

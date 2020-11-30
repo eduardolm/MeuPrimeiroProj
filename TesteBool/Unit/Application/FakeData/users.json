@@ -1,0 +1,93 @@
+[
+  {
+    "Id": 1,
+    "FullName": "Roberto Justus",
+    "Email": "roberto@net.com",
+    "Username": "robby",
+    "Password": "sdfs=345",
+    "Phone": "4730345612",
+    "Admin": 0
+  },
+  {
+     "Id": 2,
+     "FullName": "Xi Jinping",
+     "Email": "chinamission_un@mfa.gov.cn",
+     "Username": "XiDada",
+     "Password": "takeOverTheWorld",
+     "Phone": "2222222222",
+     "Admin": 1
+  },
+  {
+     "Id": 3,
+     "FullName": "Vladimir Putin",
+     "Email": "likeaboss@kremlin.ru",
+     "Username": "Czar",
+     "Password": "takeOverTheWorldTo",
+     "Phone": "3333333333",
+     "Admin": 0
+  },
+  {
+     "Id": 4,
+     "FullName": "Donald Trump",
+     "Email": "trump@trump.com",
+     "Username": "PresidentTweety",
+     "Password": "ICanDoIt",
+     "Phone": "4444444444",
+     "Admin": 1
+  },
+  {
+     "Id": 5,
+     "FullName": "Angela Merkel",
+     "Email": " angela.merkel@bundestag.de",
+     "Username": "Mutti",
+     "Password": "theMostPowerful",
+     "Phone": "5555555555",
+     "Admin": 0
+  },
+  {
+     "Id": 6,
+     "FullName": "Jeff Bezos",
+     "Email": " jeffBezos@amazon.com",
+     "Username": "Jeff",
+     "Password": "theRichiest",
+     "Phone": "6666666666",
+     "Admin": 1
+  },
+  {
+     "Id": 7,
+     "FullName": "Pope Francis",
+     "Email": "info@salastampa.va",
+     "Username": "Chico",
+     "Password": "theMostHoly",
+     "Phone": "7777777777",
+     "Admin": 0
+  },
+  {
+     "Id": 8,
+     "FullName": "Bill Gates",
+     "Email": "gates@gatesfoundation.org",
+     "Username": "Bill",
+     "Password": "theSmartest",
+     "Phone": "8888888888",
+     "Admin": 1
+  },
+  {
+     "Id": 9,
+     "FullName": "Mohammed bin Salman Al Saud",
+     "Email": " mohammed@mohammed.com",
+     "Username": "Jeff",
+     "Password": "123456",
+     "Phone": "9999999999",
+     "Admin": 0
+  },
+  {
+     "Id": 10,
+     "FullName": "Narendra Modi",
+     "Email": " modi@narendramodi.com",
+     "Username": "Modi",
+     "Password": "IDontKnow",
+     "Phone": "1010101010",
+     "Admin": 1
+  }
+]
+
