@@ -1,12 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5f4193cd_002D7db6_002D4665_002Da4b9_002D99e7672fb1d7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Should_Be_Unique_Ids_For_Teams" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=034555db_002D60cf_002D4d56_002Db313_002D3e20c1c663d6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GenericsTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::957B08F6-57BB-46FE-83B6-6A8150EB6F22::.NETCoreApp,Version=v2.2::TesteException.Program_Test.Should_Be_Unique_Ids_For_Teams&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8A53109F-382E-43C2-B71C-025BE83004E4::.NETCoreApp,Version=v3.1::MeuPrimeiroTeste_xUnit.Generics.GenericsTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=febdd2d0_002D57fc_002D4fe6_002D96bc_002D07ddc2ea3736/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Program_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::957B08F6-57BB-46FE-83B6-6A8150EB6F22::.NETCoreApp,Version=v2.2::TesteException.Program_Test&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	</wpf:ResourceDictionary>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=db79a55f_002D5dc9_002D49b7_002Db51a_002D2d3f4cbfbcef/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
